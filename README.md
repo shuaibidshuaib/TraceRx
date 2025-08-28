@@ -9,7 +9,9 @@
 - In the User App, scan a QR code (e.g., sample below) or enter a batch ID like `AMX2000` or `AMX2001` in the QR generation page, then generate and stick it somewhere else, then scan with the in built scanner.
 - Note: In a production version, QR codes would be hidden under scratch-off coatings for security. This MVP omits some restrictions for demo purposes.  
 
-![Sample QR Code](https://via.placeholder.com/150?text=Sample+QR) <!-- Replace with actual QR image if available -->
+![Qr Code](./assets/qr (2).png)
+
+
 
 ## Overview
 In low- and middle-income countries, **1 in 10 medical products** fails quality tests, with Africa bearing a disproportionate burden: nearly **one in five medicines** is falsified or substandard. According to WHO and UNODC reports, this crisis causes approximately **500,000 deaths annually in sub-Saharan Africa**, including **267,000 from fake antimalarials** and **169,000 childhood deaths** from substandard pneumonia treatments.
