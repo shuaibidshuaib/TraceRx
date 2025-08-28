@@ -6,7 +6,7 @@
 - **Admin/Manufacturer App:** [tracerxadmin.netlify.app](https://tracerxadmin.netlify.app) – For medicine manufacturers to upload data, mint tokens on Hedera, and verify availability.
 
 **Quick Start Instructions:**  
-- In the User App, scan a QR code (e.g., sample below) or enter a batch ID like `AMX2000` or `AMX2001` in the QR generation page, then generate and stick it somewhere else to test.
+- In the User App, scan a QR code (e.g., sample below) or enter a batch ID like `AMX2000` or `AMX2001` in the QR generation page, then generate and stick it somewhere else, then scan with the in built scanner.
 - Note: In a production version, QR codes would be hidden under scratch-off coatings for security. This MVP omits some restrictions for demo purposes.  
 
 ![Sample QR Code](https://via.placeholder.com/150?text=Sample+QR) <!-- Replace with actual QR image if available -->
