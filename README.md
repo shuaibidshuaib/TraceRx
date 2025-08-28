@@ -22,7 +22,7 @@ Counterfeit medicines not only erode public trust but also lead to preventable d
 ## Why TraceRx? The Inclusive Solution
 TraceRx stands out by addressing these gaps head-on:  
 - **Inclusivity for All Devices:** QR scanning for smartphones and USSD codes for feature phones – no internet required for basic users.  
-- **Blockchain-Powered Security:** Leveraging Hedera's DLT for immutable records, ensuring transparency and trust without high costs.  
+- **DLT-Powered Security:** Leveraging Hedera's DLT for immutable records, ensuring transparency and trust without high costs.  
 - **Africa-First Design:** Built for low-bandwidth environments, small clinics, and pharmacies, with tokenomics to incentivize reporting fakes.  
 - **Impact-Driven:** Prevents deaths, reduces waste, and supports drug-resistant disease control by enabling real-time authenticity checks.
 
