@@ -50,7 +50,6 @@ Why Hedera? We chose Hedera for its unparalleled **transparency, speed (certifie
 - **Database:** Firebase Firestore for real-time storage.  
 - **DLT/Blockchain:** Hedera Hashgraph for minting and verifying tokens.  
 - **USSD Simulation:** Python with Ngrok and custom Go adaptations (overcame Africa's Talking sandbox issues for robust testing).  
-- **Authentication:** Firebase Auth for secure access control.
 
 ## How TraceRx Outshines Competitors
 TraceRx differentiates itself with an Africa-centric, inclusive approach, combining open DLT with user-friendly tools. Here's a comparison:
