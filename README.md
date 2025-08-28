@@ -1,7 +1,5 @@
 # TraceRx: Distributed Ledger for Medicine Authenticity Verification in Africa
 
-[![Hedera Powered](https://img.shields.io/badge/Powered%20by-Hedera%20Hashgraph-blueviolet?style=flat&logo=hedera-hashgraph)](https://hedera.com/)
-[![Hackathon MVP](https://img.shields.io/badge/Status-MVP%20for%20Hackathon-brightgreen?style=flat)](https://tracerx.netlify.app)
 
 **Live Demos:**  
 - **User App:** [tracerx.netlify.app](https://tracerx.netlify.app) – Web app for QR scanning, verification, and more. Clinics, pharmacies, and individuals can scan QR codes or generate them (MVP feature; restricted in production).  
@@ -77,4 +75,3 @@ With endless opportunities in Africa's growing pharma sector, TraceRx is poised 
 
 **Built for Impact:** TraceRx isn't just tech – it's a lifeline for millions. Let's end the counterfeit crisis together. 🚀  
 
-For feedback or collaboration, reach out via [GitHub Issues] or the app's contact form.
