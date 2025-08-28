@@ -72,5 +72,5 @@ This MVP focuses on core verification, but we've designed for growth:
 
 With endless opportunities in Africa's growing pharma sector, TraceRx is poised to scale into a full ecosystem, driving transparency and saving lives.
 
-**Built for Impact:** TraceRx isn't just tech – it's a lifeline for millions. Let's end the counterfeit crisis together. 🚀  
+**Built for Impact:** TraceRx isn't just tech – it's a lifeline for millions. Let's end the counterfeit crisis together.  
 
