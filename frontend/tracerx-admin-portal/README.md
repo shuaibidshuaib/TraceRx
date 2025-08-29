@@ -1,8 +1,8 @@
 
-# TraceRx Admin Portal
+# TraceRx Admin/Medicine Manufacturers Portal
 
 ## Project Overview
-Welcome to the **TraceRx Admin Portal**, a cutting-edge web application designed to streamline the management and tracking of pharmaceutical batches. Built with a focus on accuracy, security, and user experience, this tool empowers administrators to upload and monitor drug batch details seamlessly, ensuring compliance with industry standards and enhancing supply chain transparency. Developed as part of a hands-on coding journey, this project demonstrates modern web development practices and real-world API integration, making it a standout solution in healthcare technology.
+Welcome to the **TraceRx Admin Portal/Medicine Manufacturers Portal**, a cutting-edge web application designed to streamline the management and tracking of pharmaceutical batches. Built with a focus on accuracy, security, and user experience, this tool empowers administrators to upload and monitor drug batch details seamlessly, ensuring compliance with industry standards and enhancing supply chain transparency. Developed as part of a hands-on coding journey, this project demonstrates modern web development practices and real-world API integration, making it a standout solution in healthcare technology.
 
 ## Features
 - **Multi-Step Form**: Intuitive three-step process for entering drug information, batch details, and confirmation.
@@ -26,9 +26,8 @@ The application is a single-file React component (`App.js`) that handles all log
 ### Setup Instructions
 1. **Clone the Repository**:
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/entermyusername/tracerx-react-app
    cd tracerx-react-app
-   ```
 2. **Install Dependencies**:
    ```bash
    npm install
