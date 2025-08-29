@@ -1,7 +1,12 @@
+# TraceRx USSD Backend (FastAPI)
 
-This project is a USSD-based drug verification system built with **FastAPI**, integrated with **Firebase** for drug metadata and **Hedera Hashgraph** for on-chain verification.
+This project is a **USSD-based drug verification system** built with **FastAPI**, integrated with **Firebase Firestore** for drug metadata and **Hedera Hashgraph** for on-chain verification.
 
-## 📦 Project Structure
+It allows users with **basic feature phones** to verify medicines by dialing a USSD shortcode (e.g., `*384#`), making it accessible to everyone, not just smartphone users.
+
+---
+
+## 📂 Project Structure
 
 ```
 medicine-verification-ussd/
@@ -15,79 +20,97 @@ medicine-verification-ussd/
 └── ext/, __pycache__/       # Internal folders
 ```
 
+---
 
+## ⚙️ Requirements
 
-##  How to Run Locally
+* Python 3.9+
+* pip
+* [FlowSim: Universal USSD Simulator]() (for local testing)
 
-###  Requirements
-- Python 3.9+
-- pip
-- I used flow sim simulator, ive to reprogram some parts of the program using go programming langauge,html,css and js.
- africastalking.com, ussd sandbox gave me a lot of issues.
+> ⚠️ Note: I initially tested with Africa’s Talking USSD Sandbox, but it gave me a lot of issues. I switched to **FlowSim**, though i reprogrammed some parts of the program using **Go, HTML, CSS, and JavaScript**.
 
+---
 
-### Setup Instructions
+## 🚀 Setup Instructions
 
-1. **Create a virtual environment (optional but recommended)**  
+1. **Create a virtual environment (optional but recommended)**
+
    ```bash
    python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   source venv/bin/activate   # On Windows: venv\Scripts\activate
    ```
 
-2. **Install dependencies**  
+2. **Install dependencies**
+
    ```bash
    pip install -r requirements.txt
    ```
 
-3. **Run the FastAPI server**  
+3. **Run the FastAPI server**
+
    ```bash
    uvicorn main:app --reload
    ```
 
-4. **Open FlowSim: Universal USSD Simulator and set the USSD endpoint to**  
-   ```
-   http://localhost:8000/ussd
-   ```
+4. **Configure FlowSim USSD endpoint**
+
+   * Set the USSD callback URL to:
+
+     ```
+     http://localhost:8000/ussd
+     ```
 
 ---
 
-## Testing the Flow
+## 📱 Testing the Flow
 
-1. Dial `*384` in FlowSim.
-2. Enter a valid drug batch ID .
+1. Dial `*384#` in FlowSim.
+2. Enter a **valid drug Batch ID**.
 3. You should see a response like:
-   ```
-   {
-  "batchId": "BATCH12345",
-  "name": "Paracetamol",
-  "expiryDate": "2026-08-15",
-  "manufacturer": "XYZ Pharma"
-   }
 
+   ```json
+   {
+     "batchId": "BATCH12345",
+     "name": "Paracetamol",
+     "expiryDate": "2026-08-15",
+     "manufacturer": "XYZ Pharma"
+   }
    ```
 
 ---
 
-## Firebase Setup
+## 🔥 Firebase Setup
 
-- Ensure your Firestore has a `drugs` collection.
-- Each document ID should match a batch ID (e.g., `ABC123`) and contain fields for e.g:
+* Ensure your Firestore has a collection named **`drugs`**.
+* Each document ID should match a batch ID (e.g., `ABC123`).
+* Example document format:
+
   ```json
- {
-  "batchId": "BATCH12345",
-  "name": "Paracetamol",
-  "expiryDate": "2026-08-15",
-  "manufacturer": "XYZ Pharma"
-}
+  {
+    "batchId": "BATCH12345",
+    "name": "Paracetamol",
+    "expiryDate": "2026-08-15",
+    "manufacturer": "XYZ Pharma"
+  }
+  ```
 
- ## Hedera Integration
+---
 
-- The `hedera_utils.py` file contains placeholder logic.
-- Replace it with actual Hedera SDK calls to verify drug authenticity on-chain.
+## ⛓️ Hedera Integration
 
-## ⚠️ Security Notes
+* `hedera_utils.py` currently contains **placeholder logic**.
+* Replace it with **Hedera SDK calls** to:
 
-- Do **not** expose `serviceAccountKey.json` publicly.
-- Use `.env` for secrets in production.
+  * Mint tokens for each medicine batch.
+  * Verify authenticity directly on-chain.
 
+---
 
+## 🔐 Security Notes
+
+* Never commit `serviceAccountKey.json` publicly.
+* Use `.env` to securely store secrets such as API keys and private keys.
+* For production, rotate keys regularly and enable proper access control in Firebase.
+
+---
