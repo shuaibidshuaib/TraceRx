@@ -11,6 +11,8 @@
   <p align="center">
   <img src="assets/1.png" alt="QR Code Demo" width="300"/>
  </p>
+ ![QR Code Demo](assets/1.png)
+
 
  
 ## Overview
