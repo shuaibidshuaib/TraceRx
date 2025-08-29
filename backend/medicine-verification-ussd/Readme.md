@@ -4,7 +4,7 @@ This project is a USSD-based drug verification system built with **FastAPI**, in
 ## 📦 Project Structure
 
 ```
-drug-verification-ussd/
+medicine-verification-ussd/
 ├── main.py                  # FastAPI app entry point
 ├── firebase_utils.py        # Firebase Firestore integration
 ├── hedera_utils.py          # Hedera verification logic
@@ -25,6 +25,7 @@ drug-verification-ussd/
 - I used flow sim simulator, ive to reprogram some parts of the program using go programming langauge,html,css and js.
  africastalking.com, ussd sandbox gave me a lot of issues.
 
+
 ### Setup Instructions
 
 1. **Create a virtual environment (optional but recommended)**  
@@ -43,7 +44,7 @@ drug-verification-ussd/
    uvicorn main:app --reload
    ```
 
-4. **Open FlowSim and set the USSD endpoint to**  
+4. **Open FlowSim: Universal USSD Simulator and set the USSD endpoint to**  
    ```
    http://localhost:8000/ussd
    ```
