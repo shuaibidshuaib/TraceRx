@@ -53,13 +53,17 @@ medicine-verification-ussd/
 
 ## Testing the Flow
 
-1. Dial `*123#` in FlowSim.
-2. Enter a valid drug batch ID like `ABC123` or `XYZ789`.
+1. Dial `*384` in FlowSim.
+2. Enter a valid drug batch ID .
 3. You should see a response like:
    ```
-   END Drug Status: Verified
-   Expiry: 2025-12-31
-   Manufacturer: Pfizer Nigeria
+   {
+  "batchId": "BATCH12345",
+  "name": "Paracetamol",
+  "expiryDate": "2026-08-15",
+  "manufacturer": "XYZ Pharma"
+   }
+
    ```
 
 ---
