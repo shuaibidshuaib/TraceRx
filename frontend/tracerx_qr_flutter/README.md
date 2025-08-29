@@ -1,8 +1,8 @@
 TraceRx QR: Secure Drug/Medicine Verification with Hedera DLT
 
 TraceRx QR is a cutting-edge Flutter mobile application that empowers users to combat counterfeit pharmaceuticals by verifying drug authenticity through QR code scanning, powered by the Hedera Distributed Ledger Technology (DLT). With a sleek interface, seamless API integration, and a gamified rewards system, TraceRx QR ensures transparency in the pharmaceutical supply chain while incentivizing user participation.
-🌟 Key Features
 
+ Key Features
 QR Code Scanning: Verify drug authenticity by scanning QR codes, retrieving critical details from a secure backend:
 Batch ID
 Drug Name
@@ -18,8 +18,7 @@ User Profiles: Track balance, scan history, reports, and trust score using Hive 
 Real-Time Verification: Integrates with a live API (https://tracerx-backend-production.up.railway.app) for instant results.
 Engaging UI: Material 3 design with light/dark themes and Lottie animations for a modern, user-friendly experience.
 
-🛠️ Technical Stack
-
+ Technical Stack
 Framework: Flutter 3.x (Dart) with Material 3 design
 Blockchain: Hedera DLT for secure, tamper-proof verification
 Backend: REST API hosted on Railway
@@ -37,7 +36,7 @@ lottie: ^3.1.2 for animations
 
 Build Tools: Android Studio, Gradle (NDK 27.0.12077973, Java 11)
 
-🚀 Getting Started
+ Getting Started
 Prerequisites
 
 Flutter SDK: >=3.0.0 <4.0.0
@@ -85,7 +84,7 @@ Build Settings (android/app/build.gradle):android {
 
 
 
-📱 How It Works
+ How It Works
 
 Home Screen: Navigate via quick action buttons (Scan QR, Generate QR, Report Fake) or the bottom navigation bar to access features.
 Scan QR: Scan a drug’s QR code to verify authenticity via the Hedera-backed API. Valid codes (e.g., RX-2024-001A) display:Verified Drug
@@ -100,7 +99,7 @@ Generate QR: Input drug details to create QR codes for batch verification (admin
 Report Fake: Submit reports for fake drugs, earning 50 HBAR and updating your trust score.
 Rewards & Profile: View HBAR balance, scan/report history, and achievements.
 
-🧪 Testing the App
+ Testing the App
 
 Sample QR Code: Use QR Code Generator to create a QR code with RX-2024-001A.
 API Testing:curl https://tracerx-backend-production.up.railway.app/api/drugs/verify/RX-2024-001A
@@ -111,10 +110,10 @@ Debugging: Run with verbose output:flutter run --verbose
 
 
 
-🌍 Real-World Impact
+ Real-World Impact
 TraceRx QR tackles the global issue of counterfeit drugs, which jeopardize millions of lives annually. By integrating Hedera’s DLT, the app ensures immutable, transparent verification of drug authenticity, fostering trust in the pharmaceutical supply chain. The gamified rewards system encourages user participation, creating a community-driven approach to healthcare safety.
-🔮 Future Enhancements
 
+ Future Enhancements
 Offline Verification: Cache API responses for offline use.
 Multi-Blockchain Support: Integrate with Ethereum or other DLTs.
 Analytics Dashboard: Visualize user trust scores and scan trends.
