@@ -50,7 +50,7 @@ results as notification in his phone.
 ### Installation
 1. Clone the Repository:
    ```bash
-   git clone https://github.com/yourusername/tracerx_qr.git
+   git clone https://github.com/myusername/tracerx_qr.git
    cd tracerx_qr
    ```
 2. Install Dependencies:
