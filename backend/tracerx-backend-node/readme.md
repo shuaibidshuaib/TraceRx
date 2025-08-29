@@ -9,7 +9,7 @@ TraceRx is Africa’s first medicine verification system that uses **Hedera’s 
 1. **Clone the repo**
 
 ```bash
-git clone https://github.com/your-username/tracerx-backend-node.git
+git clone https://github.com/myusername/tracerx-backend-node.git
 cd tracerx-backend-node
 ```
 
