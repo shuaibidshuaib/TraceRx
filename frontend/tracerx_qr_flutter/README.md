@@ -1,5 +1,5 @@
 
-# TraceRx QR: Secure Drug Verification with Hedera DLT
+# TraceRx QR: Secure Drug/Medicine Verification with Hedera DLT
 
 TraceRx QR is a Flutter-based mobile application designed to combat counterfeit pharmaceuticals by enabling users to verify drug authenticity through QR code scanning, powered by the Hedera Distributed Ledger Technology (DLT). With a modern interface, seamless API integration, and a gamified rewards system, TraceRx QR ensures transparency in the pharmaceutical supply chain while incentivizing user participation.
 
