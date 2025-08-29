@@ -9,8 +9,6 @@
 - In the User App, scan a QR code (e.g., check assests folder, qr (2) and download) or enter a batch ID like `AMX2000` or `AMX2001` in the QR generation page, then generate and stick it somewhere else, then scan with the in built scanner.
 - Note: In a production version, QR codes would be hidden under scratch-off coatings for security. This MVP omits some restrictions for demo purposes.
 ![QR Code Demo](assets/1.png)
-![Alternate QR](assets/2.png)
-![Scratch-off Example](assets/qr%20(4).png)
 
  
 ## Overview
