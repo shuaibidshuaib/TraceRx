@@ -1,9 +1,9 @@
 **TraceRx Admin Portal V2** is a groundbreaking hackathon prototype that redefines pharmaceutical supply chain security in Africa. By integrating Hedera Hashgraph's distributed ledger technology (DLT), EVM-compatible smart contracts, and AI-driven analytics, this platform offers an immutable, scalable solution to combat counterfeit drugs. With a sleek, responsive interface featuring multi-step forms, interactive dashboards, and real-time visualizations, TraceRx V2 empowers regulators with tools for batch tracking, manufacturer verification, and predictive counterfeit detection.
 
 ## Mission
-To create a transparent, secure, and inclusive pharmaceutical ecosystem, reducing counterfeit prevalence by 30% within two years through blockchain immutability and AI insights.
+**"To build a transparent, secure, and inclusive pharmaceutical ecosystem, reducing the rate of counterfeit medicines by 30% within two years through Hedera’s immutable distributed ledger and AI-powered insights."**
 
-## ✨ Key Features
+##  Key Features
 
 ### Core Functionality
 - **Secure Batch Uploads**: Intuitive multi-step form with progress tracking, uploading drug batches to Hedera with HCS logging.
@@ -21,7 +21,7 @@ To create a transparent, secure, and inclusive pharmaceutical ecosystem, reducin
 - **Hedera DLT**: HCS for event logging and EVM smart contracts for secure operations.
 - **AI Integration**: Flask-based backend with scikit-learn for real-time analysis.
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Frontend**: HTML5, CSS3 (animations), JavaScript, Leaflet.js (maps), Chart.js (charts), Font Awesome (icons).
 - **Backend**: Node.js/Express (API), Python Flask (AI), Firebase (data), Hedera SDK (DLT).
@@ -85,4 +85,4 @@ If you want to use the scanner app after uploading a medicine through Admin V2, 
 
 **TraceRx V2** - Pioneering pharmaceutical security in Africa with blockchain and AI. Built for impact, judged for innovation! 🌍
 
-⭐ Star this repo | Contributions welcome!
+
