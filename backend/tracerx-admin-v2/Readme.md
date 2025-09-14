@@ -9,9 +9,7 @@
 - **Secure Batch Uploads**: Intuitive multi-step form with progress tracking, uploading drug batches to Hedera with HCS logging.
 - **Manufacturer Verification**: Admin-controlled smart contract interface to approve or revoke manufacturers using Hedera wallets.
 - **AI Counterfeit Analytics**: Machine learning detects anomalies and predicts hotspots, displayed on interactive Leaflet maps and Chart.js charts.
-- **Real-Time Dashboard**: Visualizes batch status, verified entities, and activity logs with animated stats cards.
-- **User Profile**: Admin management with customizable settings.
-
+- 
 ### Design & Usability
 - **Responsive UI**: Gradient backgrounds, floating shapes, and smooth animations enhance user experience.
 - **Inclusive Design**: Supports QR scanning for urban users, with USSD integration planned for rural access.
