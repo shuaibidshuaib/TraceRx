@@ -80,7 +80,3 @@
 - **Frontend**: Netlify or GitHub Pages.
 
 If you want to use the scanner app after uploading a medicine through Admin V2, make sure the API endpoint reads from the drug_batches collection instead of the drug collection.
-
-**TraceRx V2** - Pioneering pharmaceutical security in Africa with blockchain and AI. Built for impact, judged for innovation! 🌍
-
-
