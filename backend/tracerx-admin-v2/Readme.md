@@ -1,1 +1,88 @@
+**TraceRx Admin Portal V2** is a groundbreaking hackathon prototype that redefines pharmaceutical supply chain security in Africa. By integrating Hedera Hashgraph's distributed ledger technology (DLT), EVM-compatible smart contracts, and AI-driven analytics, this platform offers an immutable, scalable solution to combat counterfeit drugs. With a sleek, responsive interface featuring multi-step forms, interactive dashboards, and real-time visualizations, TraceRx V2 empowers regulators with tools for batch tracking, manufacturer verification, and predictive counterfeit detection.
 
+## Mission
+To create a transparent, secure, and inclusive pharmaceutical ecosystem, reducing counterfeit prevalence by 30% within two years through blockchain immutability and AI insights.
+
+## ✨ Key Features
+
+### Core Functionality
+- **Secure Batch Uploads**: Intuitive multi-step form with progress tracking, uploading drug batches to Hedera with HCS logging.
+- **Manufacturer Verification**: Admin-controlled smart contract interface to approve or revoke manufacturers using Hedera wallets.
+- **AI Counterfeit Analytics**: Machine learning detects anomalies and predicts hotspots, displayed on interactive Leaflet maps and Chart.js charts.
+- **Real-Time Dashboard**: Visualizes batch status, verified entities, and activity logs with animated stats cards.
+- **User Profile**: Admin management with customizable settings.
+
+### Design & Usability
+- **Responsive UI**: Gradient backgrounds, floating shapes, and smooth animations enhance user experience.
+- **Inclusive Design**: Supports QR scanning for urban users, with USSD integration planned for rural access.
+- **Accessibility**: High-contrast themes and keyboard navigation-ready.
+
+### Technical Edge
+- **Hedera DLT**: HCS for event logging and EVM smart contracts for secure operations.
+- **AI Integration**: Flask-based backend with scikit-learn for real-time analysis.
+
+## 🛠️ Tech Stack
+
+- **Frontend**: HTML5, CSS3 (animations), JavaScript, Leaflet.js (maps), Chart.js (charts), Font Awesome (icons).
+- **Backend**: Node.js/Express (API), Python Flask (AI), Firebase (data), Hedera SDK (DLT).
+- **Blockchain**: Hedera Hashgraph (HCS, EVM), HashPack wallets.
+- **AI/ML**: scikit-learn for anomaly detection.
+- **Utilities**: XLSX.js (file processing).
+
+##  Getting Started
+
+### Prerequisites
+- Node.js v18+, Python 3.9+
+- Hedera testnet account ([portal.hedera.com](https://portal.hedera.com))
+- HashPack wallet
+- Ports 3000 (backend), 5001 (AI) available
+
+### Installation
+
+1. **Clone the Repo**
+
+   git clone https://github.com/myusername/TraceRx-Admin-V2.git
+   cd TraceRx-Admin-V2
+   
+
+2. **Backend Setup**
+   
+   cd backend
+   npm install
+   cp .env.example .env  # Add Hedera OPERATOR_ID, PRIVATE_KEY
+   node server.js
+   
+
+3. **AI Service Setup**
+   
+   cd ../ai-service
+   pip install -r requirements.txt
+   pip install flask-cors
+   pip install flask firebase-admin
+   python app.py
+   
+
+5. **Run Frontend**
+   - Open `index.html` in a browser or use `live-server`.
+   - Navigate sections via navbar.
+
+6. **Test Features**
+   - Upload a batch (e.g., Drug: Aspirin, Batch: BATCH-2025-002).
+   - Verify a manufacturer address.
+   - Run AI analysis for hotspot visualization.
+
+### API Endpoints
+- POST /api/drugs/upload` - Batch submission.
+- POST /api/manufacturers/verify` - Approve manufacturer.
+- POST /api/analyze` - Trigger AI insights.
+
+### Deployment
+- **Backend**: Railway or Heroku.
+- **AI**: Railway with model hosting.
+- **Frontend**: Netlify or GitHub Pages.
+
+If you want to use the scanner app after uploading a medicine through Admin V2, make sure the API endpoint reads from the drug_batches collection instead of the drug collection.
+
+**TraceRx V2** - Pioneering pharmaceutical security in Africa with blockchain and AI. Built for impact, judged for innovation! 🌍
+
+⭐ Star this repo | Contributions welcome!
