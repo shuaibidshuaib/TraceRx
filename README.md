@@ -6,10 +6,8 @@
 - **Admin/Manufacturer App:** [tracerxadmin.netlify.app](https://tracerxadmin.netlify.app) – For medicine manufacturers to upload data, mint tokens on Hedera, and verify availability.
 
 **Quick Start Instructions:**  
-- In the User App, scan a QR code (e.g., sample below) or enter a batch ID like `AMX2000` or `AMX2001` in the QR generation page, then generate and stick it somewhere else, then scan with the in built scanner.
-- Note: In a production version, QR codes would be hidden under scratch-off coatings for security. This MVP omits some restrictions for demo purposes.  
-
-![Sample QR Code](https://via.placeholder.com/150?text=Sample+QR) <!-- Replace with actual QR image if available -->
+- In the User App, scan a QR code (e.g., check assests folder, qr (2) and download) or enter a batch ID like `AMX2000` or `AMX2001` in the QR generation page, then generate and stick it somewhere else, then scan with the in built scanner.
+- Note: In a production version, QR codes would be hidden under scratch-off coatings for security. This MVP omits some restrictions for demo purposes.
 
 ## Overview
 In low- and middle-income countries, **1 in 10 medical products** fails quality tests, with Africa bearing a disproportionate burden: nearly **one in five medicines** is falsified or substandard. According to WHO and UNODC reports, this crisis causes approximately **500,000 deaths annually in sub-Saharan Africa**, including **267,000 from fake antimalarials** and **169,000 childhood deaths** from substandard pneumonia treatments.
@@ -71,6 +69,3 @@ This MVP focuses on core verification, but we've designed for growth:
 - **Scalability:** Integrate advanced analytics, AI for pattern detection, and partnerships with African health authorities.  
 
 With endless opportunities in Africa's growing pharma sector, TraceRx is poised to scale into a full ecosystem, driving transparency and saving lives.
-
-**Built for Impact:** TraceRx isn't just tech – it's a lifeline for millions. Let's end the counterfeit crisis together.  
-

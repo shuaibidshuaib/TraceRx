@@ -8,8 +8,8 @@ from dotenv import load_dotenv
 
 # Load environment variables
 load_dotenv()
-HEDERA_ACCOUNT_ID = os.getenv("HEDERA_ACCOUNT_ID", "0.0.6519209")
-HEDERA_PRIVATE_KEY = os.getenv("HEDERA_PRIVATE_KEY", "0x6ba6ad73a002994df73118024eb9ae6e8e484e641627f5e2c0401d7ff19c7d01")
+HEDERA_ACCOUNT_ID = os.getenv("HEDERA_ACCOUNT_ID", "Enter Account ID")
+HEDERA_PRIVATE_KEY = os.getenv("HEDERA_PRIVATE_KEY", "Enter Private Key")
 DRUG_VERIFICATION_TOPIC_ID = os.getenv("DRUG_VERIFICATION_TOPIC_ID")
 
 # Initialize Firebase
