@@ -52,11 +52,15 @@
    
 
 3. **AI Service Setup**
-   
+   Create in a virtual enviroment
    cd ../ai-service
+   
    pip install -r requirements.txt
+   
    pip install flask-cors
+   
    pip install flask firebase-admin
+   run the program
    python app.py
    
 
