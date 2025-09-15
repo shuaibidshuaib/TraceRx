@@ -52,7 +52,9 @@
    
 
 3. **AI Service Setup**
+   
    Create in a virtual enviroment
+   
    cd ../ai-service
    
    pip install -r requirements.txt
@@ -64,11 +66,11 @@
    python app.py
    
 
-5. **Run Frontend**
+4. **Run Frontend**
    - Open `index.html` in a browser or use `live-server`.
    - Navigate sections via navbar.
 
-6. **Test Features**
+5. **Test Features**
    - Upload a batch (e.g., Drug: Aspirin, Batch: BATCH-2025-002).
    - Verify a manufacturer address.
    - Run AI analysis for hotspot visualization.
