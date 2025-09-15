@@ -1,4 +1,4 @@
-**TraceRx Admin Portal V2** is a groundbreaking hackathon prototype that redefines pharmaceutical supply chain security in Africa. By integrating Hedera Hashgraph's distributed ledger technology (DLT), EVM-compatible smart contracts, and AI-driven analytics, this platform offers an immutable, scalable solution to combat counterfeit drugs. With a sleek, responsive interface featuring multi-step forms, interactive dashboards, and real-time visualizations, TraceRx V2 empowers regulators with tools for batch tracking, manufacturer verification, and predictive counterfeit detection.
+**TraceRx Admin Portal V2** By integrating Hedera Hashgraph's distributed ledger technology (DLT), EVM-compatible smart contract, and AI-driven analytics, this platform offers an immutable, scalable solution to combat counterfeit drugs. With a sleek, responsive interface featuring multi-step forms, interactive dashboards, and real-time visualizations, TraceRx V2 empowers regulators with tools for batch tracking, manufacturer verification, and predictive counterfeit detection.
 
 ## Mission
 **"To build a transparent, secure, and inclusive pharmaceutical ecosystem, reducing the rate of counterfeit medicines by 30% within two years through Hedera’s immutable distributed ledger and AI-powered insights."**
@@ -16,7 +16,7 @@
 - **Accessibility**: High-contrast themes and keyboard navigation-ready.
 
 ### Technical Edge
-- **Hedera DLT**: HCS for event logging and EVM smart contracts for secure operations.
+- **Hedera DLT**: HCS for event logging and EVM smart contract for secure operations.
 - **AI Integration**: Flask-based backend with scikit-learn for real-time analysis.
 
 ##  Tech Stack
