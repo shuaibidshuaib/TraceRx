@@ -23,7 +23,7 @@
 
 - **Frontend**: HTML5, CSS3 (animations), JavaScript, Leaflet.js (maps), Chart.js (charts), Font Awesome (icons).
 - **Backend**: Node.js/Express (API), Python Flask (AI), Firebase (data), Hedera SDK (DLT).
-- **Blockchain**: Hedera Hashgraph (HCS, EVM), HashPack wallets.
+- **Distributed Ledger Technology (DLT)**: Hedera Hashgraph (HCS, EVM), HashPack wallets.
 - **AI/ML**: scikit-learn for anomaly detection.
 - **Utilities**: XLSX.js (file processing).
 
@@ -47,7 +47,7 @@
    
    cd backend
    npm install
-   cp .env.example .env  # Add Hedera OPERATOR_ID, PRIVATE_KEY
+   cp .env.example .env  # Add Hedera TOPIC_ID, OPERATOR_ID, PRIVATE_KEY
    node server.js
    
 
