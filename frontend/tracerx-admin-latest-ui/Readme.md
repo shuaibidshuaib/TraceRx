@@ -1,8 +1,4 @@
 
-Here’s a clean, professional **README.md** you can use for your **TraceRx Admin V2 (TypeScript version)**, based on your stack, repo, and deployment link:
-
----
-
 #  TraceRx Admin Portal V2
 
 **Live Demo:** [https://tracerxadmnew.netlify.app](https://tracerxadmnew.netlify.app)
