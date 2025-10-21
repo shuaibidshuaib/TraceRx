@@ -9,7 +9,7 @@ Built with modern tools and intelligent architecture, **TraceRx Admin V2** redef
 
 ##  Mission
 
-**"To build a transparent, secure, and inclusive pharmaceutical ecosystem, reducing counterfeit medicine cases by 30% within two years through Hedera’s immutable distributed ledger and AI-powered insights."**
+**"To build a transparent, secure, and inclusive pharmaceutical ecosystem, reducing counterfeit medicine cases through Hedera’s immutable distributed ledger and AI-powered insights."**
 
 ---
 
