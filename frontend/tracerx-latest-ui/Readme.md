@@ -11,7 +11,7 @@ The **TraceRx QR Scanner App** brings transparency and empowerment directly to u
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
 ###  **UI/UX Excellence**
 
