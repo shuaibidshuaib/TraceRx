@@ -3,7 +3,7 @@
 
 **Live Demos:**  
 - **User App:** [tracerx.netlify.app](https://tracerx.netlify.app) – Web app for QR scanning, verification, and more. Clinics, pharmacies, and individuals can scan QR codes or generate them (MVP feature; restricted in production).  
-- **Admin/Manufacturer App:** [tracerxadmin.netlify.app](https://tracerxadmin.netlify.app) – For medicine manufacturers to upload data, mint tokens on Hedera, and verify availability.
+- **Admin/Manufacturer App:** [tracerxadmin.netlify.app](https://tracerxadmin.netlify.app) – For medicine manufacturers to upload data.
 
 **Quick Start Instructions:**  
 - In the User App, scan a QR code (e.g., check assests folder, qr (2) and download) or enter a batch ID like `AMX2000` or `AMX2001` in the QR generation page, then generate and stick it somewhere else, then scan with the in built scanner.
