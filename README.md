@@ -34,7 +34,7 @@ Why Hedera? We chose Hedera for its unparalleled **transparency, speed (certifie
 1. **Batch Registration:** Manufacturers upload medicine data via the Admin App, which mints an immutable token on Hedera's network for tamper-proof recording.  
 2. **Verification for Smartphones:** Users scan QR codes in the User App for instant authenticity checks. Once scanned, the batch is marked as "verified" – subsequent scans flag potential duplicates or fakes.  
 3. **Verification for Feature Phones:** Dial a USSD short code (e.g., `*384#`) to enter a batch ID and receive SMS confirmation – no app or internet needed.  
-4. **Backend Integration:** A Node.js + Express API connects verification requests to Hedera for validation and Firebase for real-time storage.  
+4. **Backend Integration:** A Node.js + Express API connects to Hedera.  
 5. **Reporting and Incentives:** Users report fakes via the app and earn free HBAR tokens, adding a tokenomics layer to encourage community vigilance.
 
 ## Key Features
