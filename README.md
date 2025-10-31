@@ -5,6 +5,10 @@
 - **User App:** [tracerx.netlify.app](https://tracerx.netlify.app) – Web app for QR scanning, verification, and more. Clinics, pharmacies, and individuals can scan QR codes or generate them (MVP feature; restricted in production).  
 - **Admin/Manufacturer App:** [tracerxadmin.netlify.app](https://tracerxadmin.netlify.app) – For medicine manufacturers to upload data.
 
+---
+* **Pitch Deck:** [TraceRx Pitch Deck](https://drive.google.com/file/d/1-X2itzViID5xqROR5f_LRDWW4qhdLl2C/view?usp=sharing)
+* **Certificate:** [View Certificate](https://drive.google.com/file/d/1DNiF-e7p94Zows00-w_X-YJdMNURQHAu/view?usp=sharing)
+---
 **Quick Start Instructions:**  
 - In the User App, scan a QR code (e.g., check assests folder, qr (2) and download) or enter a batch ID like `AMX2000` or `AMX2001` in the QR generation page, then generate and stick it somewhere else, then scan with the in built scanner.
 - Note: In a production version, QR codes would be hidden under scratch-off coatings for security. This MVP omits some restrictions for demo purposes.
